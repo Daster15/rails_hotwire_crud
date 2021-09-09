@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class FieldComponent < ViewComponent::Base
+class Forms::FieldComponent < ViewComponent::Base
   def initialize(name, form:, fieldheader:, fieldlabel:, type: 'text', css_class: [], **options)
     super
     @name = name

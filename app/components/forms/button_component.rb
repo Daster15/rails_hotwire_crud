@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ButtonComponent < ViewComponent::Base
+class Forms::ButtonComponent < ViewComponent::Base
   def initialize(text: nil, css_class: [], **options)
     super
     @text = text

@@ -11,6 +11,7 @@ gem 'activeadmin', '~> 2.9'
 # gem 'bcrypt', '~> 3.1.7'
 # ActiveRecord backend for Delayed::Job
 gem 'delayed_job_active_record', '~> 4.1', '>= 4.1.5'
+gem 'daemons'
 # Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 4.7', '>= 4.7.3'
 # Adds an object-oriented layer of presentation logic to your Rails apps.
@@ -44,7 +45,7 @@ gem 'tailwindcss-rails', '~> 0.3.0'
 gem 'view_component', '~> 2.24', require: 'view_component/engine'
 
 gem 'avatarro'
-#gem 'faker'
+# gem 'faker'
 
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 5.0'
@@ -68,6 +69,8 @@ group :development, :test do
   gem 'pry-rails', '~> 0.3.9'
   # rspec-rails is a testing framework for Rails 5+.
   gem 'rspec-rails', '~> 4.0.1'
+
+  gem 'rubocop'
 end
 
 group :development do

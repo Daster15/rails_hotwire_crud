@@ -17,16 +17,12 @@
             </h2>
 
             <form class="mt-10" method="POST">
+            
                 <!-- Email Input -->
-              <%= render(FieldComponent.new(:email, form: f, css_class: %w[bg-white], type: :email, fieldheader:'User name',fieldlabel:'Type user e-mail', placeholder: 'User e-mail', autofocus: true, autocomplete: 'email', required: true)) %>
-              <%= render(FieldComponent.new(:password, form: f, css_class: %w[bg-white], type: :password, fieldheader:'User password',fieldlabel:'Type user password', placeholder: 'Password', autofocus: true, autocomplete: 'password', required: true)) %>
+              <%= render(Forms::FieldComponent.new(:email, form: f, css_class: %w[bg-white], type: :email, fieldheader:'User name',fieldlabel:'Type user e-mail', placeholder: 'User e-mail', autofocus: true, autocomplete: 'email', required: true)) %>
+              <%= render(Forms::FieldComponent.new(:password, form: f, css_class: %w[bg-white], type: :password, fieldheader:'User password',fieldlabel:'Type user password', placeholder: 'Password', autofocus: true, autocomplete: 'password', required: true)) %>
                 <!-- Auth Buttton -->
-              <%= render(ButtonComponent.new(text: 'Login',css_class: %w[w-full])) %>
-
-                <!-- Another Auth Routes -->
-                <div class="sm:flex sm:flex-wrap mt-8 sm:mb-4 text-sm text-center">
-                   <%= render "devise/shared/links" %>
-                </div>
+              <%= render(Forms::ButtonComponent.new(text: 'Login',css_class: %w[w-full])) %>
             </form>
         </div>
     </div>

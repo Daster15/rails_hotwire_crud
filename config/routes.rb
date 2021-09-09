@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
-
   
-
   root :to => 'books#index'
 
   dir = File.expand_path(__dir__)

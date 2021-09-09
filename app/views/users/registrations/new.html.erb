@@ -16,18 +16,18 @@
 
     <div>
       <div class="my-5">
-        <%= render(FieldComponent.new(:email, form: f, type: :email, placeholder: 'Email', autofocus: true, autocomplete: 'email', required: true)) %>
+        <%= render(Forms::FieldComponent.new(:email, form: f, type: :email, placeholder: 'Email', autofocus: true, autocomplete: 'email', required: true)) %>
       </div>
       <div class="my-5">
-        <%= render(FieldComponent.new(:password, form: f, type: :password, placeholder: 'Password', autocomplete: 'new-password', required: true)) %>
+        <%= render(Forms::FieldComponent.new(:password, form: f, type: :password, placeholder: 'Password', autocomplete: 'new-password', required: true)) %>
       </div>
 
       <div class="my-5">
-        <%= render(FieldComponent.new(:password_confirmation, form: f, type: :password, placeholder: 'Password confirmation', autocomplete: 'new-password', required: true)) %>
+        <%= render(Forms::FieldComponent.new(:password_confirmation, form: f, type: :password, placeholder: 'Password confirmation', autocomplete: 'new-password', required: true)) %>
       </div>
     </div>
 
-    <%= render(ButtonComponent.new(text: 'Sign up')) %>
+    <%= render(Forms::ButtonComponent.new(text: 'Sign up')) %>
 
     <% if devise_mapping.omniauthable? %>
       <% resource_class.omniauth_providers.each do |provider| %>
