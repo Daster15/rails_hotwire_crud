@@ -91,7 +91,6 @@ class BooksController < ApplicationController
       CrudHistoryJob.perform_later(current_user.id, "Delete book #{@book.id}", @book.name )
     end
     def update_history
-      puts "===========================UPDATE HISTORY================================"
       CrudHistoryJob.perform_later(current_user.id, "Update book #{@book.id}", @book.name )
     end
 
