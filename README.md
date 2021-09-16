@@ -11,7 +11,6 @@ This is a demo application to showcase Rails, [Hotwire](https://hotwire.dev) (Tu
 <img src="https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Main_table.PNG" width="696" height="310" />
 <img src="https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Search_bar.PNG" width="696" height="310" />
 <img src="https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/History.PNG" width="696" height="310" />
-<img src="https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Search_bar.PNG" width="696" height="310" />
 <img src="https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Inline_show.PNG" width="696" height="310" />
 
 
