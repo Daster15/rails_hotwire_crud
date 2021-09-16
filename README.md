@@ -39,7 +39,7 @@ Distributed under the MIT License.
 
 Arkadiusz Rajczyk  - arkadiusz.rajczyk@gmail.com
 
-[product-screenshot-main]: (https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Main_table.PNG)
+[product-screenshot-main]: (/images/Main_table.PNG )
 [product-screenshot-search]: (https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Search_bar.PNG)
 [product-screenshot-history]: (https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/History.PNG)
 [product-screenshot-inline]: (https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Inline_show.PNG)
