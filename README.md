@@ -8,10 +8,12 @@
 ## About The Project
 This is a demo application to showcase Rails, [Hotwire](https://hotwire.dev) (Turbo and Stimulus), [TailwindCSS](https://tailwindcss.com) and [ViewComponents](https://viewcomponent.org) in a single stack.
 
-<img src="https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Search_bar.PNG" width="696" height="364" />
-[[product-screenshot-search]]
-[[product-screenshot-history]]
-[[product-screenshot-inline]]
+<img src="https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Main_table.PNG" width="696" height="310" />
+<img src="https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Search_bar.PNG" width="696" height="310" />
+<img src="https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/History.PNG" width="696" height="310" />
+<img src="https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Search_bar.PNG" width="696" height="310" />
+<img src="https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Inline_show.PNG" width="696" height="310" />
+
 
 ### Built With
 
@@ -39,10 +41,6 @@ Distributed under the MIT License.
 
 Arkadiusz Rajczyk  - arkadiusz.rajczyk@gmail.com
 
-[product-screenshot-main]: images/Main_table.PNG
-[product-screenshot-search]: https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Search_bar.PNG
-[product-screenshot-history]: https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/History.PNG
-[product-screenshot-inline]: https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Inline_show.PNG
 
 
 
