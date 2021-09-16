@@ -8,7 +8,7 @@
 ## About The Project
 This is a demo application to showcase Rails, [Hotwire](https://hotwire.dev) (Turbo and Stimulus), [TailwindCSS](https://tailwindcss.com) and [ViewComponents](https://viewcomponent.org) in a single stack.
 
-<img src="https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Search_bar.PNG" width="400" height="400" />
+<img src="https://github.com/Daster15/rails_hotwire_crud/blob/master/public/images/Search_bar.PNG" width="596" height="264" />
 [[product-screenshot-search]]
 [[product-screenshot-history]]
 [[product-screenshot-inline]]
